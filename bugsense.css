@@ -1,0 +1,9 @@
+#bugsense-iframe {
+  max-width: 1px !important;
+  max-height: 1px !important;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  visibility: hidden;
+}
