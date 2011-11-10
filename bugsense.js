@@ -1,4 +1,4 @@
-SC.Bugsense = {
+Bugsense = {
   notify: function(notice) {
 
     var that    = this;

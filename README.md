@@ -24,7 +24,7 @@ You will easily recognize these different parts in our source besides required p
 If you use jQuery you are good to go:
 
     $(document).ajaxError(function(event, xhr, settings, error) {
-      SC.Bugsense.notify({
+      Bugsense.notify({
         request: xhr,
         settings: settings,
         error: error
